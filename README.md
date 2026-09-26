@@ -2,14 +2,14 @@
 
 Public Android preview release.
 
-- Version: **0.3.23**
+- Version: **0.3.27**
 - Minimum system: **Android 8.0 (API 26)**
 - Architecture: **ARM64**
 - Package: `com.bowen.newslite`
 
 ## Download
 
-[Download NewsAlarm-0.3.23-debug.apk](./NewsAlarm-0.3.23-debug.apk)
+[Download NewsAlarm-0.3.27-debug.apk](./NewsAlarm-0.3.27-debug.apk)
 
 ## Install
 
