@@ -1,19 +1,39 @@
-# News Alarm
+# News Alarm · 新闻闹钟
 
-Public Android preview release.
+新闻闹钟是一款 Android 新闻阅读与定时播报应用。它聚合多个中英文来源，在本地完成新闻筛选、加权排序、翻译、图片整理和语音播报，并提供休息提醒与手机使用限制。
 
-- Version: **0.5.12**
-- Minimum system: **Android 8.0 (API 26)**
-- Architecture: **ARM64**
-- Package: `com.bowen.newslite`
+当前公开测试版本：**0.5.14**（versionCode 108）。项目仍处于测试阶段。
 
-## Download
+## 下载
 
-[Download NewsAlarm-0.5.12-debug.apk](./NewsAlarm-0.5.12-debug.apk)
+[下载 NewsAlarm-0.5.14-debug.apk](./NewsAlarm-0.5.14-debug.apk)
 
-## Install
+## 当前功能
 
-Download the APK on an Android device, allow installation from the browser or
-file manager when prompted, and open **News Alarm** after installation.
+- 定时抓取可配置的中英文新闻来源，并在本地保存候选新闻。
+- 按时效、类型权重、来源质量与事件重要性排序。
+- 翻译新闻标题和正文，并保留原始标题供核对。
+- 展示新闻图片和详情页，支持分类浏览与来源管理。
+- 提供新闻语音播报、悬浮播放器和媒体通知。
+- 提供定时新闻闹钟、休息提醒和手机使用限制。
+- 在本地保存新闻、设置与诊断信息；诊断信息不会自动上传。
 
-This APK uses an Android debug signature and is intended for testing.
+部分功能仍在目标设备上调试，不代表所有功能均已稳定完成。
+
+## 系统要求
+
+- Android 8.0（API 26）或更高版本
+- ARM64 Android 设备
+- 应用包名：`com.plutab.newsalarm`
+
+通知、精确闹钟、自启动、省电策略和无障碍服务由用户按所启用的功能分别授权。手机使用限制需要名为“新闻闹钟”的无障碍服务；应用会优先跳转到服务详情页，不支持直达的系统则进入无障碍总页。休息提醒不依赖无障碍服务。
+
+## 安装
+
+在 Android 设备上下载 APK，按提示允许浏览器或文件管理器安装未知来源应用，然后安装并打开 **News Alarm**。
+
+此版本使用新的应用包名和签名配置，与旧版本的应用身份不同。APK 为调试测试包，不是应用商店发行包。
+
+## 作者
+
+[PlutaB](https://github.com/PlutaB)
