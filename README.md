@@ -2,11 +2,11 @@
 
 新闻闹钟是一款 Android 新闻阅读与定时播报应用。它聚合多个中英文来源，在本地完成新闻筛选、加权排序、翻译、图片整理和语音播报，并提供休息提醒与手机使用限制。
 
-当前公开测试版本：**0.5.14**（versionCode 108）。项目仍处于测试阶段。
+当前公开测试版本：**0.5.16**（versionCode 110）。项目仍处于测试阶段。
 
 ## 下载
 
-[下载 NewsAlarm-0.5.14-debug.apk](./NewsAlarm-0.5.14-debug.apk)
+[下载 NewsAlarm-0.5.16-debug.apk](./NewsAlarm-0.5.16-debug.apk)
 
 ## 当前功能
 
